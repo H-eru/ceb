@@ -53,7 +53,7 @@ nav li a:active{
 
 main{
     background-color: #fafafa;
-    height: 600px;
+    /* height: 600px; */
     margin-top: 50px;
     /* margin-right: 30px;
     margin-left: 30px; */
@@ -62,7 +62,7 @@ main{
 .main-content{
     margin-top: 20px;
     width:60%;
-    margin-right:10px;
+    margin-right:5px;
     margin-left: 50px;
 	float:left;
 }
@@ -84,6 +84,7 @@ main{
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
+    border-radius: 3px;
 }
 
 .headline a{
@@ -92,6 +93,7 @@ main{
 
 .headline a img{
     width: 100%;
+    border-radius: 3px 3px 0px 0px;
 }
 
 .headline h3{
@@ -111,8 +113,116 @@ main{
     color: #1f1e1d;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
+    font-weight: 549    ;
 }
 
-/* .headline a p:hover{
-    color: #e6852c;
-} */
+.smol{
+    margin-top: 30px;
+    width: 100%;
+    /* text-align: center; */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.smol-grid{
+    width:28%;
+	display: inline-block;
+	margin: 30px 20px 30px 20px;
+    /* padding: 10px; */
+    background-color: white;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.smol-grid a{
+    text-decoration: none;
+    color: #1f1e1d;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.smol-grid p{
+    padding: 5px 10px 10px 10px;
+    font-size: 18px;
+}
+
+.pad{
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+}
+
+.smol-grid a:hover{
+    color:  #e8793e;;
+}
+
+.smol-grid a img{
+    width: 100%;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.side-content{
+    margin-top: 20px;
+	width:30%;
+    float:right;
+    height: 200px;
+    margin-right:50px;
+    margin-left: 5px;
+}
+
+.side-content h1{
+    font-family:"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.side-grid{
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border-radius: 3px;
+}
+
+.side-grid a{
+    text-decoration: none;
+    color: #1f1e1d;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.side-grid a:hover{
+    color:  #e8793e;;
+}
+
+.side-grid a img{
+    width: 100%;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.side-grid p{
+    padding: 5px 10px 10px 10px;
+    font-size: 18px;
+}
+
+footer{
+    margin-top: 50px;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    -webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.2);
+}
+
+.copy{
+    height: 50px;
+    text-align: center;
+}
+
+.copy p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+}
